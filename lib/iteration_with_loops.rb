@@ -7,8 +7,8 @@ def find_min_in_nested_arrays(src)
   while count < src.length do
     smallest = src[count][0]
     puts smallest
-    binding.pry
     inner_count = 0
+    binding.pry
     while inner_count < src[count][inner_count] do
       if src[count][inner_count] < smallest
         puts smallest
