@@ -21,6 +21,6 @@ def find_min_in_nested_arrays(src)
   min_numbers
 end
 
-array = [[1, 2, 5][4, 2, 9]]
+array = [[1, 2, 5],[4, 2, 9]]
 
 find_min_in_nested_arrays(array)
